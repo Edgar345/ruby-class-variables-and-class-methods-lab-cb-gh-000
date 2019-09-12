@@ -39,7 +39,6 @@ class Song
 
   def self.artist_count
     hash_count = {}
-    #["rap", "rap", "pop"]
 
     @@artists.each do |artist|
       hash_count[artist] = (hash_count[artist]) ? hash_count[artist] + 1 : 1
